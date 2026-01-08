@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Bmi{
+public class Pr1_4
+{
 	public static void main(String[] args){
 		System.out.println("Name:_ Enr:_ ");
 		

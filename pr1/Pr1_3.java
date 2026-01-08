@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Vowel{
+public class Pr1_3
+{
 	public static void main(String[] args){
 		System.out.println("Name:_ Enr:_ ");
 		

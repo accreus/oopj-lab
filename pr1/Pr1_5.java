@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class Atm{
+public class Pr1_5
+{
 	public static void main(String[] args){
 		System.out.println("Name:_ Enr:_ ");
 		

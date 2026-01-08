@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Linear{
+public class Pr1_2{
 	public static void main(String[] args){
 		System.out.println("Name:_ Enr:_ ");
 		
