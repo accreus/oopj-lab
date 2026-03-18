@@ -1,29 +1,25 @@
 import java.util.*;
 
-public class Pr1_5
-{
-	public static void main(String[] args){
-		System.out.println("Name:_ Enr:_ ");
-		
-		int[] arr = {100, 50, 10, 5, 2, 1};
-		int[] notes = new int[arr.length];
-		int amount;
+public class Pr1_5 {
+    public static void main(String[] args) {
+        System.out.println("Name: Jwalin Enr: 250413107015");
+        
+        if (args.length < 2) {
+            System.out.println("Please provide exactly two numbers as command-line arguments.");
+            return;
+        }
 
-		Scanner sc = new Scanner(System.in);
+        // Converting string arguments to double
+        double num1 = Double.parseDouble(args[0]);
+        double num2 = Double.parseDouble(args[1]);
 
-		System.out.println("Enter amount");
-		amount = sc.nextInt();
+        // Performing sum and product
+        double sum = num1 + num2;
+        double product = num1 * num2;
 
-		for(int i=0; i<arr.length; i++){
-			int quotient = amount/arr[i];
-			amount = amount%arr[i];
-			notes[i] = quotient;
-		}
-
-		System.out.println("Notes required are:");
-
-		for(int i=0; i<arr.length; i++){
-			System.out.println(notes[i] + " notes of " + arr[i]);
-		}
-	}
+        System.out.println("Number 1: " + num1);
+        System.out.println("Number 2: " + num2);
+        System.out.println("Sum is: " + sum);
+        System.out.println("Product is: " + product);
+    }
 }
