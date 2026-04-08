@@ -1,3 +1,4 @@
+clear
 package apack;
 
 public class A {

@@ -2,7 +2,7 @@
 
 ## 1. apack/A.java
 
-~~~java
+```java
 package apack;
 
 public class A {
@@ -20,11 +20,11 @@ public class A {
         return privVar;
     }
 }
-~~~
+```
 
 ## 2. bpack/B.java
 
-~~~java
+```java
 package bpack;
 
 import apack.A;
@@ -39,11 +39,11 @@ public class B extends A {
         System.out.println("private privVar: Not accessible directly.");
     }
 }
-~~~
+```
 
 ## 3. cpack/C.java
 
-~~~java
+```java
 package cpack;
 
 import apack.A;
@@ -61,11 +61,11 @@ public class C {
         System.out.println("private privVar: Not accessible directly.");
     }
 }
-~~~
+```
 
 ## 4. dpack/ProtectedDemo.java
 
-~~~java
+```java
 package dpack;
 
 import bpack.B;
@@ -82,4 +82,4 @@ public class ProtectedDemo {
         objC.display();
     }
 }
-~~~
+```
